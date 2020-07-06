@@ -3,7 +3,7 @@
     <div style="width: 500px; max-width: 90vw;">
       <q-input v-model="text" />
       <q-input v-model="text" placeholder="Placeholder" />
-      <q-input v-model="text" stack-label="Stack label" />
+      <q-input v-model="text" stack-label="Stack label" label-color="orange" />
       <q-input v-model="text" float-label="Float label" />
       <q-input v-model="text" float-label="Float label & placeholder" />
       <q-input v-model="email" type="email" float-label="Email" suffix="@gmail.com" clearable />
